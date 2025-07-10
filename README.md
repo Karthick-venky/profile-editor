@@ -38,5 +38,9 @@ A Flutter project to view and edit a user profile. Built with clean architecture
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/profile_editor_app.git
-cd profile_editor_app
+git clone https://github.com/Karthick-venky/profile-editor.git
+cd profile-editor
+
+flutter pub get
+flutter pub run build_runner build --delete-conflicting-outputs
+flutter run
